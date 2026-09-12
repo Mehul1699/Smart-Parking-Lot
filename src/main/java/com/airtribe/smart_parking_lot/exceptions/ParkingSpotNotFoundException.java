@@ -1,0 +1,9 @@
+package com.airtribe.smart_parking_lot.exceptions;
+
+public class ParkingSpotNotFoundException extends Exception {
+
+    public ParkingSpotNotFoundException(String message) {
+        super(message);
+    }
+
+}
